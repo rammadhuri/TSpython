@@ -2,7 +2,8 @@
 def count(strn):
     vowel = ["a", "i", "o", "u", "e"]
     count = 0
-    for ch in strn:
+    s = strn.lower()
+    for ch in s:
         if ch in vowel:
             count += 1
     return count
