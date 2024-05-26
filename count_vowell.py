@@ -2,7 +2,7 @@
 count = 0
 vowel = ["a", "i", "o", "u", "e"]
 strng = input("enter string")
-for ch in strng:
+for ch in strng.lower():
     if ch in vowel:
         count += 1
 print(f"count the number of vowels is {count}")
